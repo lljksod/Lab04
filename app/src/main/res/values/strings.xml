@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab03</string>
+    <string name="action_settings">Settings</string>
+    <string name="detailTextView"></string>
+    <string-array name="sPraiseArray">
+        <item>Good job bud.</item>
+        <item>Ok great.</item>
+        <item>way to go</item>
+        <item>i guess it\'s alright</item>
+    </string-array>
+</resources>

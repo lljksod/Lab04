@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/buttonPraise1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Praise One" />
+
+                <Button
+                    android:id="@+id/buttonPraise2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Praise Two" />
+
+                <Button
+                    android:id="@+id/buttonPraise3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Praise Three" />
+
+                <Button
+                    android:id="@+id/buttonPraise4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Praise Four" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/ConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+        <TextView
+            android:id="@+id/detailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/detailTextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
